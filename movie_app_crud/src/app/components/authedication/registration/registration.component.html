@@ -1,0 +1,43 @@
+<div class="alert" *ngIf="wrong === 'yes'">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <strong>Danger!</strong>  {{this.errormsg.error}}
+</div>
+
+
+
+
+
+
+
+<div class ="container">
+<div class ="row">
+<div class ="col-md-12">
+<div class ="row">
+<div class ="col-md-4 offset-md-4">
+ <form>
+ <div class ="card">
+ <div class ="card-body">
+ <h5 class ="card-title">login</h5>
+ </div>
+ 
+  <div class="form-group">
+    <label for="pwd">Email:</label>
+    <input type="email " class="form-control" [(ngModel)]="user.email" id="email" name="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password"  class="form-control"[(ngModel)]="userlog.password" id="pwd" name ="password">
+  </div>
+  <div>
+  <button type="submit" class="btn btn-default" (click)="ondetails(user)" >Submit</button>
+   <button type="submit" class="btn btn-default" routerLink='/login' >register</button>
+  
+</div>
+  </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+</div>

@@ -1,0 +1,28 @@
+
+    <div class="row">
+    <div class="col-md-4 col-sm-3">
+       <img class="img-fluid d-block images" [attr.src]="movieUrl+movie.poster_path" alt="movie">
+    </div>
+      <div class="col-md-8 col-sm-3">
+        <div class="text-center"><h5 class="card-title">{{movie.title}}</h5>
+        </div>
+        <div class="card-body"><p class="card-text"><strong>Overview:</strong>&nbsp;{{(movie.overview .length>100)? (movie.overview | slice:0:150)+'..':(movie.overview)}}</p>
+        <p class="card-text"><strong>Rating:</strong> {{movie.vote_average}}</p>
+        </div>
+        </div>      
+      <div *ngIf="flag === 'homd' ">
+      < a class="btn btn-success" (click)="addToFavorite(movie)">Add to Fav</a>
+     </div>
+
+    <div *ngIf="flag === 'favd' ">
+    <a class="btn btn-success"  (click)="delete(movie.id)">delele</a>
+    <a class="btn btn-success"  (click)="setmoviefav(moive)"> Update </a>
+   </div>
+
+</div>
+             
+  
+      
+
+    
+  

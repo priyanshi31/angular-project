@@ -1,0 +1,9 @@
+<h3 class="text-center quote"> get latest movie </h3>
+<div class="container input-group my-3 w-50">
+  <input type="text"  
+  (keyup.enter)="search()" name ="name" class="form-control" [(ngModel)]="movieSearch" placeholder="Search movie.." >
+  <div class="input-group-append">
+     <button type="submit" id="search-ico" (click)="search()"><i class="fa fa-search"></i></button>
+  </div>
+</div>
+

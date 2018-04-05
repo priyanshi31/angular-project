@@ -1,0 +1,5 @@
+<app-movie-search (success)="setMovieList($event)"></app-movie-search>
+<h1 class="text-center">you have added : {{favCount.length}}</h1>
+<app-movie-list [movies] ="movies"   (success)="setlist($event)" [flag]="flag"></app-movie-list>
+
+

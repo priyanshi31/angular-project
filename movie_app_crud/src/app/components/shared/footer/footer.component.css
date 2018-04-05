@@ -1,0 +1,38 @@
+#footer {
+  background:linear-gradient(to right, #2F4F4F,#8FBC8F) ;
+  padding: 20px 0;
+  margin-top:20px;
+}
+/* footer list */
+#footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+/* footer links */
+#footer ul a {
+  color: #999999;
+}
+/*social icons */
+#footer .social {
+  text-align: left;
+}
+/* list styles */
+li{
+	font-weight: bold;
+	color:black;
+	text-transform: uppercase;
+}
+a{
+	color:black;
+}
+/* heading styles */
+h4{
+	font-weight: bold;
+	color:black;
+}
+/* footer text */
+.text{
+	color:black;
+	font-weight: bold;
+
+}

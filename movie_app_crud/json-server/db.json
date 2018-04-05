@@ -1,0 +1,102 @@
+{
+  "movies": [
+    {
+      "vote_count": 28,
+      "id": 419831,
+      "video": false,
+      "vote_average": 6.2,
+      "title": "I Kill Giants",
+      "popularity": 45.682399,
+      "poster_path": "/zNrBAF5YvzDACMHvxwHpsiAOt2I.jpg",
+      "original_language": "en",
+      "original_title": "I Kill Giants",
+      "genre_ids": [
+        53,
+        18,
+        14
+      ],
+      "backdrop_path": "/kDcNirNDYyu2ugdVc97y5QSl7N6.jpg",
+      "adult": false,
+      "overview": "Barbara Thorson struggles through life by escaping into a fantasy life of magic and monsters.",
+      "release_date": "2018-01-21"
+    },
+    {
+      "vote_count": 58,
+      "id": 21461,
+      "video": false,
+      "vote_average": 7.7,
+      "title": "Lage Raho Munna Bhai",
+      "popularity": 5.04857,
+      "poster_path": "/pMoC48VphGIfavPi5CPN01wiNIO.jpg",
+      "original_language": "hi",
+      "original_title": "लगे रहो मुन्ना भाई",
+      "genre_ids": [
+        35,
+        18,
+        10749
+      ],
+      "backdrop_path": "/sjGOAiXyTA5IAXYBOmD50Hvn1Xs.jpg",
+      "adult": false,
+      "overview": "A hilarious underworld gangster known as Munna Bhai falls comically in love with a radio host by the name of Jahnvi, who runs an elders' home, which is taken over by an unscrupulous builder, who gets the residents kicked out ironically with the help of Munna's sidekick, Circuit, while Munna is busy romancing Jahnvi elsewhere.",
+      "release_date": "2006-01-01"
+    },
+    {
+      "vote_count": 0,
+      "id": 479747,
+      "video": false,
+      "vote_average": 0,
+      "title": "Little Gandhi",
+      "popularity": 1.036235,
+      "poster_path": "/qQkaUzV5w6PLJDZd6MbUOBIdM9D.jpg",
+      "original_language": "en",
+      "original_title": "Little Gandhi",
+      "genre_ids": [
+        99
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "The story of iconic Syrian peace activist Ghiyath Matar whose brutal torture and death at the age of 26 outraged the international community and erupted into one of the most violent uprisings in modern history.",
+      "release_date": "2016-03-01"
+    },
+    {
+      "vote_count": 2,
+      "id": 38428,
+      "video": false,
+      "vote_average": 6,
+      "title": "Gandhi, My Father",
+      "popularity": 1.239624,
+      "poster_path": "/fqlnmEdX7YA5gENd4IBNwBVqd2Z.jpg",
+      "original_language": "hi",
+      "original_title": "Gandhi, My Father",
+      "genre_ids": [
+        18,
+        36
+      ],
+      "backdrop_path": "/2aPF9po7fjMn9qds86bJ4xEKOAw.jpg",
+      "adult": false,
+      "overview": "With Gandhi My Father, producer Anil Kapoor and director Feroz Abbas Khan have shed light onto Gandhi the person, rather than Gandhi the icon. Using Gandhi’s political career as a canvas, the film paints a picture of his intricate, complex, and strained relationship with his son Harilal Gandhi.",
+      "release_date": "2007-08-03"
+    },
+    {
+      "vote_count": 2,
+      "id": 494061,
+      "video": false,
+      "vote_average": 7,
+      "title": "Hello!",
+      "popularity": 1.816264,
+      "poster_path": "/7Vl7Yx3rvVv0oWHakmDmc22cGDZ.jpg",
+      "original_language": "te",
+      "original_title": "Hello!",
+      "genre_ids": [
+        28,
+        10751,
+        10402,
+        10749
+      ],
+      "backdrop_path": "/2aqzHMZBv2MayQ57i3M27mZPF11.jpg",
+      "adult": false,
+      "overview": "Avinash/Seenu is a street urchin brought up by his loving adoptive parents Saru and Prakash. The love of his life is the girl he meets during childhood Junnu/Priya, whom fate had snatched away from him. Fourteen long years and they still wait for the day they will meet again. Will destiny help them?",
+      "release_date": "2017-12-22"
+    }
+  ]
+}
